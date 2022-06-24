@@ -1,0 +1,60 @@
+{
+  "user":[
+    {
+      "id":1,
+      "username":"test",
+      "password":"test",
+      "books": [],
+      "member":1,
+      "reservations": 0
+    }
+  ],  
+  
+  "books": [
+    {
+      "id": 1,
+      "title": "The Pillars of the Earth",
+      "author": "Ken Follett",
+      "cover": "https://m.media-amazon.com/images/I/51O+bXad7oL.jpg",
+      "genre": "Historical fiction",
+      "publisher": "Macmillan",
+      "reservation":false
+    },
+    {
+      "id": 2,
+      "title": "The Lair of the White Worm",
+      "author": "Bram Stoker",
+      "cover": "https://m.media-amazon.com/images/I/51zwH9GJSrL.jpg",
+      "genre": "horror",
+      "publisher": "William Rider and Son Ltd",
+      "reservation":false
+    },
+    {
+       "id": 3,
+      "title": "The Lord of the Rings",
+      "author": "J. R. R. Tolkien",
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/51kfFS5-fnL._SX332_BO1,204,203,200_.jpg",
+      "genre": "High fantasy Adventure",
+      "publisher": "Allen & Unwin",
+      "reservation":false
+    },
+    {
+       "id": 4,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/DaVinciCode.jpg/220px-DaVinciCode.jpg",
+      "genre": "Mystery, Detective fiction, Conspiracy fiction, Thriller",
+      "publisher": "Doubleday",
+      "reservation":false
+    },
+    {
+       "id": 5,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/c/c4/TheAlchemist.jpg",
+      "genre": "Quest, adventure, fantasy",
+      "publisher": "HarperTorch",
+      "reservation":false
+    }
+  ]    
+}
