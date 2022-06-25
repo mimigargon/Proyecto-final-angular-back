@@ -55,6 +55,24 @@
       "genre": "Quest, adventure, fantasy",
       "publisher": "HarperTorch",
       "reservation":false
+    },
+    {
+      "id": 6,
+      "title": "The Call of Cthulhu",
+      "author": "H. P. Lovecraft",
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Weirdtales-1928-02-thecallofcthulhu.jpg/200px-Weirdtales-1928-02-thecallofcthulhu.jpg",
+      "genre": "Horror",
+      "publisher": "Weird Tales",
+      "reservation":false
+    }, 
+    {
+      "id": 7,
+      "title": "The Red Dragon",
+      "author": "Thomas Harris",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Drag01big.jpg/220px-Drag01big.jpg",
+      "genre": "Thriller",
+      "publisher": "G. P. Putnams",
+      "reservation":false
     }
   ]    
 }
