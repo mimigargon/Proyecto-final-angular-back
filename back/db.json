@@ -1,70 +1,69 @@
 {
-  "user":[
-    {
-      "id":1,
-      "username":"test",
-      "password":"test",
-      "books": [],
-      "member":1,
-      "reservations": 0
-    }
-  ],  
-  
-  "books": [
+  "user": [
     {
       "id": 1,
+      "username": "test",
+      "password": "test",
+      "books": [],
+      "member": 1,
+      "reservations": 0
+    }
+  ],
+  "books": [
+    {
       "title": "The Pillars of the Earth",
       "author": "Ken Follett",
       "cover": "https://m.media-amazon.com/images/I/51O+bXad7oL.jpg",
       "genre": "Historical fiction",
       "publisher": "Macmillan",
-      "reservation":false
+      "reservation": "true",
+      "id": 1
     },
     {
-      "id": 2,
       "title": "The Lair of the White Worm",
       "author": "Bram Stoker",
       "cover": "https://m.media-amazon.com/images/I/51zwH9GJSrL.jpg",
       "genre": "horror",
       "publisher": "William Rider and Son Ltd",
-      "reservation":false
+      "reservation": "true",
+      "id": 2
     },
     {
-       "id": 3,
+      "id": 3,
       "title": "The Lord of the Rings",
       "author": "J. R. R. Tolkien",
       "cover": "https://images-na.ssl-images-amazon.com/images/I/51kfFS5-fnL._SX332_BO1,204,203,200_.jpg",
       "genre": "High fantasy Adventure",
       "publisher": "Allen & Unwin",
-      "reservation":false
+      "reservation": "true"
     },
     {
-       "id": 4,
+      "id": 4,
       "title": "The Da Vinci Code",
       "author": "Dan Brown",
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/DaVinciCode.jpg/220px-DaVinciCode.jpg",
       "genre": "Mystery, Detective fiction, Conspiracy fiction, Thriller",
       "publisher": "Doubleday",
-      "reservation":false
+      "reservation": "true"
     },
     {
-       "id": 5,
+      "id": 5,
       "title": "The Alchemist",
       "author": "Paulo Coelho",
       "cover": "https://upload.wikimedia.org/wikipedia/en/c/c4/TheAlchemist.jpg",
       "genre": "Quest, adventure, fantasy",
       "publisher": "HarperTorch",
-      "reservation":false
+      "reservation": "true"
     },
     {
-      "id": 6,
       "title": "The Call of Cthulhu",
       "author": "H. P. Lovecraft",
-      "cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Weirdtales-1928-02-thecallofcthulhu.jpg/200px-Weirdtales-1928-02-thecallofcthulhu.jpg",
+      "cover": "https://i.pinimg.com/736x/4c/3f/b2/4c3fb2ee146bdb238b5c3074d0ee4104--line-artwork-cthulhu-mythos.jpg",
       "genre": "Horror",
       "publisher": "Weird Tales",
-      "reservation":false
-    }, 
+      "reservation": "true",
+      "id": 6
+    },
     {
       "id": 7,
       "title": "The Red Dragon",
@@ -72,7 +71,124 @@
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Drag01big.jpg/220px-Drag01big.jpg",
       "genre": "Thriller",
       "publisher": "G. P. Putnams",
-      "reservation":false
+      "reservation": "true"
+    },
+    {
+      "id": 8,
+      "title": "Frankenstein or The Modern Prometheus",
+      "author": "Mary Shelley",
+      "cover": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/b437287907675.560b3e56e18fa.jpg",
+      "genre": "Horror",
+      "publisher": "Lackington, Hughes, Harding, Mavor & Jones, Gradifco",
+      "reservation": "true"
+    },
+    {
+      "id": 9,
+      "title": "The Strange Case of Dr Jekyll and Mr Hyde",
+      "author": "Robert Louis Stevenson",
+      "cover": "https://almabooks.com/wp-content/uploads/2016/10/9781847493781.jpg",
+      "genre": "Horror",
+      "publisher": "Longmans, Green & co.",
+      "reservation": "true"
+    },
+    {
+      "id": 10,
+      "title": "Coraline",
+      "author": "Neil Gaiman",
+      "cover": "https://m.media-amazon.com/images/I/51gzrvHasGL.jpg",
+      "genre": "Horror",
+      "publisher": "Bloomsbury Publishing",
+      "reservation": "true"
+    },
+    {
+      "id": 11,
+      "title": "The Name of the Wind",
+      "author": "Patrick Rothfuss",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/TheNameoftheWind_cover.jpg/220px-TheNameoftheWind_cover.jpg",
+      "genre": "Fantasy",
+      "publisher": "DAW Books",
+      "reservation": "true"
+    },
+    {
+      "id": 12,
+      "title": "The Wise Man's Fear",
+      "author": "Patrick Rothfuss",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/The_Wise_Man%27s_Fear.jpg/220px-The_Wise_Man%27s_Fear.jpg",
+      "genre": "Fantasy",
+      "publisher": "DAW Books",
+      "reservation": "true"
+    },
+    {
+      "id": 13,
+      "title": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/TheNightCircus.jpg/220px-TheNightCircus.jpg",
+      "genre": "Fantasy",
+      "publisher": "Doubleday",
+      "reservation": "true"
+    },
+    {
+      "id": 14,
+      "title": "Foundation",
+      "author": "Isaac Asimov",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Foundation_gnome.jpg/220px-Foundation_gnome.jpg",
+      "genre": "Sci-Fi",
+      "publisher": "Gnome Press",
+      "reservation": "true"
+    },
+    {
+      "id": 15,
+      "title": "Do Androids Dream of Electric Sheep?",
+      "author": "Philip K. Dick",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/DoAndroidsDream.png/190px-DoAndroidsDream.png",
+      "genre": "Sci-Fi",
+      "publisher": "Doubleday",
+      "reservation": "true"
+    },
+    {
+      "id": 16,
+      "title": "Ernest Cline",
+      "author": "Philip K. Dick",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Ready_Player_One_cover.jpg/220px-Ready_Player_One_cover.jpg",
+      "genre": "Sci-Fi",
+      "publisher": "Crown Publishing Group",
+      "reservation": "true"
+    },
+    {
+      "id": 17,
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/The_Hunger_Games.jpg/220px-The_Hunger_Games.jpg",
+      "genre": "Sci-Fi",
+      "publisher": "Scholastic Press",
+      "reservation": "true"
+    },
+    {
+      "id": 18,
+      "title": "Annihilation",
+      "author": "Jeff VanderMeer",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Annihilation_by_jeff_vandermeer.jpg/220px-Annihilation_by_jeff_vandermeer.jpg",
+      "genre": "Sci-Fi",
+      "publisher": "Farrar",
+      "reservation": "true"
+    },
+    {
+      "id": 19,
+      "title": "Neuromancer",
+      "author": "William Gibson",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Neuromancer_%28Book%29.jpg/220px-Neuromancer_%28Book%29.jpg",
+      "genre": "Sci-Fi",
+      "publisher": "Ace",
+      "reservation": "true"
+    },
+    {
+      "id": 20,
+      "title": "Dune",
+      "author": "Franl Herbert",
+      "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Dune-Frank_Herbert_%281965%29_First_edition.jpg/220px-Dune-Frank_Herbert_%281965%29_First_edition.jpg",
+      "genre": "Sci-Fi",
+      "publisher": "Chilton Books",
+      "reservation": "true"
     }
-  ]    
+  ]
 }
