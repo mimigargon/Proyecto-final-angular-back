@@ -2,11 +2,13 @@
   "user": [
     {
       "id": 1,
-      "username": "test",
-      "password": "test",
-      "books": [],
-      "member": 1,
-      "reservations": 0
+      "name": "",
+      "email": "", 
+      "phone": "",
+      "username": "",
+      "password": "",
+      "repassword": "", 
+      "books": []
     }
   ],
   "books": [
