@@ -3,11 +3,11 @@
     {
       "id": 1,
       "name": "",
-      "email": "", 
+      "email": "",
       "phone": "",
       "username": "",
       "password": "",
-      "repassword": "", 
+      "repassword": "",
       "books": []
     }
   ],
@@ -19,6 +19,7 @@
       "genre": "Historical fiction",
       "publisher": "Macmillan",
       "reservation": "true",
+      "state": 100,
       "id": 1
     },
     {
@@ -27,26 +28,29 @@
       "cover": "https://m.media-amazon.com/images/I/51zwH9GJSrL.jpg",
       "genre": "horror",
       "publisher": "William Rider and Son Ltd",
-      "reservation": "true",
+      "reservation": "false",
+      "state": 84,
       "id": 2
     },
     {
-      "id": 3,
       "title": "The Lord of the Rings",
       "author": "J. R. R. Tolkien",
       "cover": "https://images-na.ssl-images-amazon.com/images/I/51kfFS5-fnL._SX332_BO1,204,203,200_.jpg",
       "genre": "High fantasy Adventure",
       "publisher": "Allen & Unwin",
-      "reservation": "true"
+      "reservation": "false",
+      "state": 77,
+      "id": 3
     },
     {
-      "id": 4,
       "title": "The Da Vinci Code",
       "author": "Dan Brown",
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/DaVinciCode.jpg/220px-DaVinciCode.jpg",
       "genre": "Mystery, Detective fiction, Conspiracy fiction, Thriller",
       "publisher": "Doubleday",
-      "reservation": "true"
+      "reservation": "false",
+      "state": 75,
+      "id": 4
     },
     {
       "id": 5,
@@ -55,7 +59,8 @@
       "cover": "https://upload.wikimedia.org/wikipedia/en/c/c4/TheAlchemist.jpg",
       "genre": "Quest, adventure, fantasy",
       "publisher": "HarperTorch",
-      "reservation": "true"
+      "reservation": "true",
+      "state": 100
     },
     {
       "title": "The Call of Cthulhu",
@@ -64,25 +69,28 @@
       "genre": "Horror",
       "publisher": "Weird Tales",
       "reservation": "true",
-      "id": 6
+      "id": 6,
+      "state": 100
     },
     {
-      "id": 7,
       "title": "The Red Dragon",
       "author": "Thomas Harris",
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/Drag01big.jpg/220px-Drag01big.jpg",
       "genre": "Thriller",
       "publisher": "G. P. Putnams",
-      "reservation": "true"
+      "reservation": "false",
+      "state": 100,
+      "id": 7
     },
     {
-      "id": 8,
       "title": "Frankenstein or The Modern Prometheus",
       "author": "Mary Shelley",
       "cover": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/b437287907675.560b3e56e18fa.jpg",
       "genre": "Horror",
       "publisher": "Lackington, Hughes, Harding, Mavor & Jones, Gradifco",
-      "reservation": "true"
+      "reservation": "false",
+      "state": 30,
+      "id": 8
     },
     {
       "id": 9,
@@ -91,7 +99,8 @@
       "cover": "https://almabooks.com/wp-content/uploads/2016/10/9781847493781.jpg",
       "genre": "Horror",
       "publisher": "Longmans, Green & co.",
-      "reservation": "true"
+      "reservation": "true",
+      "state": 100
     },
     {
       "id": 10,
@@ -100,7 +109,8 @@
       "cover": "https://m.media-amazon.com/images/I/51gzrvHasGL.jpg",
       "genre": "Horror",
       "publisher": "Bloomsbury Publishing",
-      "reservation": "true"
+      "reservation": "true",
+      "state": 100
     },
     {
       "id": 11,
@@ -109,7 +119,8 @@
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/TheNameoftheWind_cover.jpg/220px-TheNameoftheWind_cover.jpg",
       "genre": "Fantasy",
       "publisher": "DAW Books",
-      "reservation": "true"
+      "reservation": "true",
+      "state": 100
     },
     {
       "id": 12,
@@ -118,7 +129,8 @@
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/The_Wise_Man%27s_Fear.jpg/220px-The_Wise_Man%27s_Fear.jpg",
       "genre": "Fantasy",
       "publisher": "DAW Books",
-      "reservation": "true"
+      "reservation": "true",
+      "state": 100
     },
     {
       "id": 13,
@@ -127,7 +139,8 @@
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/TheNightCircus.jpg/220px-TheNightCircus.jpg",
       "genre": "Fantasy",
       "publisher": "Doubleday",
-      "reservation": "true"
+      "reservation": "true",
+      "state": 100
     },
     {
       "id": 14,
@@ -136,7 +149,8 @@
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Foundation_gnome.jpg/220px-Foundation_gnome.jpg",
       "genre": "Sci-Fi",
       "publisher": "Gnome Press",
-      "reservation": "true"
+      "reservation": "true",
+      "state": 100
     },
     {
       "id": 15,
@@ -145,7 +159,8 @@
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/DoAndroidsDream.png/190px-DoAndroidsDream.png",
       "genre": "Sci-Fi",
       "publisher": "Doubleday",
-      "reservation": "true"
+      "reservation": "true",
+      "state": 100
     },
     {
       "id": 16,
@@ -154,7 +169,8 @@
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Ready_Player_One_cover.jpg/220px-Ready_Player_One_cover.jpg",
       "genre": "Sci-Fi",
       "publisher": "Crown Publishing Group",
-      "reservation": "true"
+      "reservation": "true",
+      "state": 100
     },
     {
       "id": 17,
@@ -163,7 +179,8 @@
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/The_Hunger_Games.jpg/220px-The_Hunger_Games.jpg",
       "genre": "Sci-Fi",
       "publisher": "Scholastic Press",
-      "reservation": "true"
+      "reservation": "true",
+      "state": 100
     },
     {
       "id": 18,
@@ -172,7 +189,8 @@
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Annihilation_by_jeff_vandermeer.jpg/220px-Annihilation_by_jeff_vandermeer.jpg",
       "genre": "Sci-Fi",
       "publisher": "Farrar",
-      "reservation": "true"
+      "reservation": "true",
+      "state": 100
     },
     {
       "id": 19,
@@ -181,7 +199,8 @@
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Neuromancer_%28Book%29.jpg/220px-Neuromancer_%28Book%29.jpg",
       "genre": "Sci-Fi",
       "publisher": "Ace",
-      "reservation": "true"
+      "reservation": "true",
+      "state": 100
     },
     {
       "id": 20,
@@ -190,7 +209,8 @@
       "cover": "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/Dune-Frank_Herbert_%281965%29_First_edition.jpg/220px-Dune-Frank_Herbert_%281965%29_First_edition.jpg",
       "genre": "Sci-Fi",
       "publisher": "Chilton Books",
-      "reservation": "true"
+      "reservation": "true",
+      "state": 100
     }
   ]
 }
