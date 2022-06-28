@@ -2,14 +2,11 @@
   "user": [
     {
       "id": 1,
-      "name": "",
-      "email": "",
-      "phone": "",
       "username": "",
       "password": "",
-      "repassword": "",
-      "books": []
+      "repassword": ""
     }
+   
   ],
   "books": [
     {
@@ -28,8 +25,8 @@
       "cover": "https://m.media-amazon.com/images/I/51zwH9GJSrL.jpg",
       "genre": "horror",
       "publisher": "William Rider and Son Ltd",
-      "reservation": "false",
-      "state": 84,
+      "reservation": "true",
+      "state": 95,
       "id": 2
     },
     {
