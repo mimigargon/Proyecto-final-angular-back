@@ -2,11 +2,15 @@
   "user": [
     {
       "id": 1,
-      "username": "",
-      "password": "",
-      "repassword": ""
+      "username": "alemiriluis",
+      "password": "alemiriluis",
+      "repassword": "alemiriluis"
+    },
+    {
+      "username": "fghnfghnfn",
+      "password": "hgfnfhnfh",
+      "id": 2
     }
-   
   ],
   "books": [
     {
@@ -25,8 +29,8 @@
       "cover": "https://m.media-amazon.com/images/I/51zwH9GJSrL.jpg",
       "genre": "horror",
       "publisher": "William Rider and Son Ltd",
-      "reservation": "true",
-      "state": 95,
+      "reservation": "false",
+      "state": 8,
       "id": 2
     },
     {
@@ -46,7 +50,7 @@
       "genre": "Mystery, Detective fiction, Conspiracy fiction, Thriller",
       "publisher": "Doubleday",
       "reservation": "false",
-      "state": 75,
+      "state": 28,
       "id": 4
     },
     {
